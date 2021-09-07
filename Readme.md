@@ -1,23 +1,5 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/134059418/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E153)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+⛔ DEPRECATED. This example demonstrated how to create an advanced selection checkbox at runtime. Starting with v14.1, this functionality is available out of the box. Set the <a href="https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewCommandColumn.SelectAllCheckboxMode">GridViewCommandColumn.SelectAllCheckboxMode</a> property to `GridViewSelectAllCheckBoxMode.AllPages` to activate it. 
 
-* [CommandColumnHeaderTemplate.cs](./CS/WebSite/App_Code/CommandColumnHeaderTemplate.cs) (VB: [CommandColumnHeaderTemplate.vb](./VB/WebSite/App_Code/CommandColumnHeaderTemplate.vb))
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
-<!-- default file list end -->
-# OBSOLETE - How to create an Advanced Selection CheckBox at runtime
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e153)**
-<!-- run online end -->
+You can try this functionality in the following online demo:
 
-
-<p><strong>UPDATED:</strong><br /><br />Starting with version v2014 vol 1 (v14.1), this functionality is available out of the box. Simply set the <strong>GridViewCommandColumn.SelectAllCheckboxMode</strong> property to <strong>GridViewSelectAllCheckBoxMode.AllPages</strong> to activate it. Please refer to the <a href="https://community.devexpress.com/blogs/aspnet/archive/2014/05/28/asp-net-gridview-select-all-rows-updated-coming-soon-in-v14-1.aspx">ASP.NET: GridView Select All Rows Updated </a>blog post and the <a href="http://demos.devexpress.com/ASPxGridViewDemos/Selection/AdvancedSelection.aspx">Select All Rows</a> demo for more information.<br /><br />If you have version v14.1+ available, consider using the built-in functionality instead of the approach detailed below.<br />If you need further clarification, create a new ticket in our Support Center. <br /><br />This sample demonstrates how to create an advanced selection checkbox at runtime. To implement this, I have created a new class (CommandColumnHeaderTemplate). This class implements the ITemplate interface and contains the code to create the CheckBox shown in the CommandColumn's header.</p>
-
-<br/>
-
-
+- <a href="https://demos.devexpress.com/ASPxGridViewDemos/Selection/AdvancedSelection.aspx">Select All Rows</a>
